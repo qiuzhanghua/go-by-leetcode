@@ -16,7 +16,7 @@ func TestAddTwoNumbers(t *testing.T) {
 	}
 
 	expected := ListNode{
-		Val:  1,
+		Val: 1,
 		Next: &ListNode{
 			Val:  1,
 			Next: nil,
@@ -30,6 +30,5 @@ func TestAddTwoNumbers(t *testing.T) {
 	if !eq {
 		t.Errorf("Test failed, expected: '%v', got:  '%v'", expected, actual)
 	}
-
 
 }
